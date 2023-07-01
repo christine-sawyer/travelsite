@@ -1,0 +1,85 @@
+
+    /* 
+    Destination Pages:
+    X The provided image asset for the destination must take up the full width/height of the background for the page.
+    X Activities must have a background of #FEFAF5 -->
+     */
+
+    /* .bg {
+      position: fixed; 
+      top: -50%; 
+      left: -50%; 
+      width: 200%; 
+      height: 200%;
+    }
+    .bg img {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+      margin: auto; 
+      min-width: 50%;
+      min-height: 50%;
+    } */
+
+
+.background-image-1 {
+    /* background: url(../assets/images/hawaii.jpg) no-repeat center center fixed;  */
+    background: url(../assets/images/hawaii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .background-image-2 {
+    background: url(../assets/images/iceland.jpg) no-repeat center center fixed; 
+  }
+  .background-image-3 {
+    background: url(../assets/images/greece.jpg) no-repeat center center fixed; 
+  }
+.destination__card-container {
+    display: flex;
+    margin: 15%;
+  }
+
+.destination__title {
+    color: #FFFFFF;
+}
+
+/*
+ * card
+ */
+ .card {
+    margin: 0.625rem;
+    width: 33.33%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    background-color: #FFFFFF;
+  }
+
+  .card__title {
+    font-size: 1.25rem;
+    text-align: center;
+    border-bottom: 2px solid;
+  }
+
+  .card__list {
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  .card__item {
+    background-color: #FEFAF5;
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+ 
