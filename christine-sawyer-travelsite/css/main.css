@@ -3,13 +3,9 @@
  */
 
 .hero {
-    /* <!-- Home Page - Hero Section:
-    X The hero background color must be #FEFAF5
-    X The text content must be left aligned
-    X The slogan color must be #335576
-    X The ‘Get Started’ button background color must be #DB7A4E --> */
-    /* background-color: #FEFAF5; */
     background-color: #FEFAF5;
+    max-width: 80rem;
+    padding-bottom: 2.5rem;
 }
 .hero__wrapper {
   text-align: left;
@@ -25,8 +21,15 @@
   margin-right: 5%;
 }
 
+.hero__title {
+  color: #335576;
+  font-size: 2.5rem;
+}
+
 .hero__slogan {
     color: #335576;
+    font-size: 0.8125rem;
+    margin-bottom: 1.25rem;
 }
 
 .hero__button {
@@ -34,7 +37,7 @@
     border-radius: 1.25rem;
     border: 0;
     color:#FFFFFF;
-    padding: 0.3125rem 1.25rem;
+    padding: 0.625rem 2.5rem;
 }
 
 .hero__image {
@@ -45,21 +48,9 @@
  * Recomendations Section
  */
 .recommendations {
-    /* 
-    X The recommendations title must have the color of #335576
-    X There will be 3 Cards, one for each destination (Iceland, Greece, Hawaii)
-    The destination name must be in the bottom right corner of the card
-    X The border radius of the cards must be 5px
-    X The border of the cards must be 1px solid black with an opacity of 20%
-       The box shadow of the cards must be:
-    X Horizontal Offset: 0px
-    X Vertical Offset: 4px
-    X Blur: 4px
-    X Color: Black, with an opacity of 20% 
-    */
     max-width: 80rem;
-    /* margin: 0 auto 2.5rem auto; */
     padding: 0;
+    padding-top: 1.25rem;
     margin: 0 5%;
 }
 
@@ -67,14 +58,13 @@
     display: flex;
     /* margin: 15%; */
     margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 8%;
-    margin-left: 8%;
-  }
-
+    margin-bottom: 7%;
+    margin-right: 12%;
+    margin-left: 12%;
+}
 .recommendations__title {
     color: #335576;
-    font-size: 1.5625rem;
+    font-size: 1.375rem;
 
 }
 
@@ -87,13 +77,17 @@
     border-radius: 0.3125rem;
     border: 1px solid rgba(0, 0, 0, .2);
     box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, .2); 
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
+  }
+  .card:hover {
+    position: relative;
+    margin: 0.625rem;
+    border-radius: 0.3125rem;
+    border: 3px solid rgba(219, 122, 78, .5);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, .2); 
   }
   .card__link-wrapper {
     position: relative;
     text-decoration: none;
-    color: #000;
-    /* border: 1px solid; */
   }
   .card__title {
     font-size: 1.5625rem;
@@ -103,21 +97,11 @@
     right: 0; 
     padding: 0.5rem; 
   }
-  /* .card__description {
-    font-size: 1rem;
-  } */
   .card__img {
     border-radius: 0.3125rem;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  /* .card__text-container {
-    /* color: #FFFFFF; */
-    /* position: absolute; */
-    /* text-align: right;
-    background-color: #DB7A4E;
 
-  } */ 
-  
  

@@ -1,36 +1,31 @@
-/* html vs * ? */
-
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Question: Is there a general preference of html vs * ? */
 
 body{
   margin: 0;
 }
 
+/*
+ * Site Header w/ Navigation
+ */
 .site-header {
     position:sticky;
     background-color: #FFFFFF;
     top:0;
-    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0.9375rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0;
     border: 0;
     z-index: 1;
 }
 .nav{
-    /* Each page must have an identical Navigation Bar with the following style:
-    X The Navigation Bar must be fixed to the top of the page
-    X The background color must be #FFFFFF
-    X The site logo/wordmark color must be #335576
-    X The currently active page must be underlined using the color #DB7A4E */
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 80rem; 1280px */
-    /* margin: 0 auto; */
-    margin: 10px 5%;
+    margin: 0.625rem 5%;
 }
 
 .nav__site-logo{
@@ -53,6 +48,7 @@ body{
 .nav__item {
     display: inline-block;
     padding: 0.5rem;
+    font-size: 0.75rem;
 }
 
 .nav__link {
@@ -65,26 +61,21 @@ body{
   border-bottom: 0.1875rem solid #DB7A4E;
 }
 
-/* .nav__link:hover {
+.nav__link:hover {
     padding-bottom: 0.375rem;
-    border-bottom: 0.1875rem solid #DB7A4E;
-} */
+    border-bottom: 0.25rem solid #335576;
+}
 
 
  /*
  * site-footer
  */
 
- /* footer {
-    /* <!-- Each page must have an identical footer with the following style:
-    The background color must be #FEFAF5
-    The footer titles and text must be the color #335576
-    The footer subtitles must be the color #DB7A4E --> */
 
  .site-footer {
     background-color: #FEFAF5;
     margin-bottom: 0;
-    /* padding: 2rem; */
+    padding-bottom: 0.9375rem;
   }
   .site-footer__wrapper {
     display: flex;
@@ -97,6 +88,8 @@ body{
     margin: 0;
     font-size: 1.5625rem;
     color: #335576;
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
   }
   .site-footer__subtitle {
     color: #DB7A4E;
@@ -114,55 +107,42 @@ body{
     color: #335576;
     font-size: 0.9375rem;
   }
-  .site-footer__icon {
-    height: 1.5rem;
-    width: auto;
-    margin: 1rem;
-  }
-  .site-footer__icon--link {
-    text-decoration: none;
-  }
-  /* .site-footer__icon:hover {
-    color: red;
-  } */
-
-  .site-footer__left {
-    /* width: 33.33%; */
-    /* flex: 1; */
-    /* padding: 0.625rem; */
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 200px;
+  .site-footer__contact {
+    padding-top: 1.5625rem;
+    padding-bottom: 3.125rem;
+    padding-left: 10.9375rem;
     padding-right: 0;
   }
-  .site-footer__center {
-    /* width: 33.33%; */
+  .site-footer__hours {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* justify-content: space-between; */
   }
-  .site-footer__column--wrapper{
+  .site-footer__hours-columns--wrapper{
     display: flex;
     flex-direction: row;
   }
-  .site-footer__column {
-    /* display: inline; */
+  .site-footer__hours-columns {
     display: flex;
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    padding-right: 20px;
-    /* flex: 1;
-    padding: 0 1.5rem; */
+    padding-right: 1.5625rem;
   }
-  .site-footer__right {
-    /* width: 50%; */
-    /* flex: 1; */
+  .site-footer__social {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    padding-right: 200px;
+    padding-right: 10.9375rem;
+  }
+  .site-footer__icon {
+    height: 1.5rem;
+    width: auto;
+    margin-left: 0;
+    margin-right: 1.5625rem;
+    margin-top: 1.25rem;
+  }
+  .site-footer__icon--link {
+    text-decoration: none;
   }
   
