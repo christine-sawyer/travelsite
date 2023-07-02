@@ -7,18 +7,18 @@ body{
   margin: 0;
 }
 
+
 /*
  * Site Header w/ Navigation
  */
+
+
 .site-header {
     position:sticky;
     background-color: #FFFFFF;
-    top:0;
-    margin: 0;
-    padding: 0.9375rem;
-    padding-top: 0.3125rem;
-    padding-bottom: 0;
     border: 0;
+    margin: 0;
+    padding: 5px 15px 2px 15px;
     z-index: 1;
 }
 .nav{
@@ -27,7 +27,6 @@ body{
     justify-content: space-between;
     margin: 0.625rem 5%;
 }
-
 .nav__site-logo{
     color: #335576;
     font-size: 1.25rem;
@@ -36,7 +35,6 @@ body{
     text-decoration: none;
     display: inline-block;
 }
-
 .nav__list {
     display: flex;
     padding: 0;
@@ -44,23 +42,19 @@ body{
     list-style: none;
     justify-content: flex-end;
 }
-
 .nav__item {
     display: inline-block;
     padding: 0.5rem;
     font-size: 0.75rem;
 }
-
 .nav__link {
     color: #000000;
     text-decoration: none;
 }
-
 .nav__link--active {
   padding-bottom: 0.375rem;
   border-bottom: 0.1875rem solid #DB7A4E;
 }
-
 .nav__link:hover {
     padding-bottom: 0.375rem;
     border-bottom: 0.25rem solid #335576;
@@ -68,14 +62,14 @@ body{
 
 
  /*
- * site-footer
+ * Site Footer - Contact, Hours, Social Media
  */
 
 
  .site-footer {
     background-color: #FEFAF5;
     margin-bottom: 0;
-    padding-bottom: 0.9375rem;
+    padding-bottom: 0px;
   }
   .site-footer__wrapper {
     display: flex;
@@ -108,39 +102,27 @@ body{
     font-size: 0.9375rem;
   }
   .site-footer__contact {
-    padding-top: 1.5625rem;
-    padding-bottom: 3.125rem;
-    padding-left: 10.9375rem;
-    padding-right: 0;
+    padding: 1.5625rem 0 3.125rem 14rem;
   }
   .site-footer__hours {
     display: flex;
     flex-direction: column;
   }
-  .site-footer__hours-columns--wrapper{
-    display: flex;
-    flex-direction: row;
-  }
   .site-footer__hours-columns {
     display: flex;
     flex-direction: column;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 1.5625rem;
+    padding: 0 1.5625rem 0 0;
+  }
+  .site-footer__hours-columns--wrapper {
+    display: flex;
+    flex-direction: row;
   }
   .site-footer__social {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 10.9375rem;
+    padding: 0 11.5rem 0 0;
   }
   .site-footer__icon {
     height: 1.5rem;
-    width: auto;
-    margin-left: 0;
-    margin-right: 1.5625rem;
-    margin-top: 1.25rem;
+    margin: 1.25rem 1.5625rem 0 0;
   }
   .site-footer__icon--link {
     text-decoration: none;

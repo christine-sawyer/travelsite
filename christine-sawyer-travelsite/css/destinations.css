@@ -1,5 +1,9 @@
+/*
+* Background Images
+*/
 
-.background-image-1 {
+
+.background-image-hawaii {
     background: url(../assets/images/hawaii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +12,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-  }
-  
-  .background-image-2 {
+  } 
+  .background-image-iceland {
     background: url(../assets/images/iceland.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +23,7 @@
     justify-content: center;
     width: 100%;
   }
-  .background-image-3 {
+  .background-image-greece {
     background: url(../assets/images/greece.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,21 +33,30 @@
     justify-content: center;
     width: 100%;
   }
+
+
+/*
+* Destination Itinerary Activities
+*/
+
+
 .destination__card-container {
     display: flex;
-    margin: 15%;
+    margin: 4% 15% 10% 15%;
     justify-content: space-between;
   }
-
 .destination__title {
     color: #FFFFFF;
-    font-size: 3.125rem;
+    font-size: 62px;
     margin: 3.125rem 4.375rem;
 }
 
+
 /*
- * card
+ * Destination Itinerary Card
  */
+
+
  .card {
     margin: 0.625rem;
     width: 33.33%;
@@ -57,14 +69,12 @@
     height: 21.75rem;
     width: 15.5rem;
   }
-
   .card__title {
     font-size: 1.25rem;
     text-align: center;
     border-bottom: 0.125rem solid;
     margin: 1.25rem 0.9375rem;
   }
-
   .card__list {
     font-size: 1rem;
     list-style: none;
@@ -79,5 +89,3 @@
     margin: 0.625rem 0.9375rem;
     border: 0;
   }
-  
- 
