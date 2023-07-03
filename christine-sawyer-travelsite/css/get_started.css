@@ -5,34 +5,34 @@
     color: #335576;
 }
 form {
-    margin: 20px;
-    padding: 20px;
+    margin: 1.25rem;
+    padding: 1.25rem;
     background-color: #FEFAF5;
   }
   
   label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   input[type="text"],
   input[type="email"],
   textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   select {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   input[type="submit"] {
@@ -45,13 +45,13 @@ form {
   }
   
   main form {
-    max-width: 500px;
+    max-width: 31.25rem;
     margin: 0 auto;
   }
   
   main h1 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
   }
   

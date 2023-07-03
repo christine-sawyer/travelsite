@@ -51,7 +51,7 @@ button:hover {
     background-color: #FFFFFF;
     border: 0;
     margin: 0;
-    padding: 5px 15px 2px 15px;
+    padding: 0.3125rem 0.9375rem 0.125rem 0.9375rem;
     z-index: 1;
 }
 .nav{
@@ -102,7 +102,7 @@ button:hover {
  .site-footer {
     background-color: #FEFAF5;
     margin-bottom: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
   .site-footer__wrapper {
     display: flex;
@@ -120,22 +120,22 @@ button:hover {
   }
   .site-footer__subtitle {
     color: #DB7A4E;
-    font-size: 9px;
+    font-size: 0.5625rem;
     white-space: nowrap;
     margin-bottom: 0.2rem;
   }
   .site-footer__link {
     color: #335576;
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-decoration: none;
   }
   .site-footer__text {
     margin: 0.312rem 0;
     color: #335576;
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   .site-footer__contact {
-    padding: 25px 0 50px 195px;
+    padding: 1.5625rem 0 3.125rem 12.1875rem;
   }
   .site-footer__hours {
     display: flex;
@@ -151,7 +151,7 @@ button:hover {
     flex-direction: row;
   }
   .site-footer__social {
-    padding: 0 170px 0 0;
+    padding: 0 10.625rem 0 0;
   }
   .site-footer__icon {
     height: 1.5rem;
