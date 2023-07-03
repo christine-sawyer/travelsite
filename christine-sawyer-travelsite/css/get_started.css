@@ -1,0 +1,57 @@
+.get-started__container {
+    margin-bottom: 5%;
+}
+.get-started__title {
+    color: #335576;
+}
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FEFAF5;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #DB7A4E;
+    border-radius: 1.25rem;
+    border: 0;
+    color:#FFFFFF;
+    padding: 0.625rem 2.5rem;
+    cursor: pointer;
+  }
+  
+  main form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  main h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
